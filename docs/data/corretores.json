@@ -1,0 +1,26 @@
+{
+  "_instrucoes": "Cada chave abaixo e o codigo que vai no link (ex: ?c=david). O numero deve estar no formato internacional sem +, espacos ou hifen (ex: 5527999998888). Para adicionar corretor: copie um bloco, troque o codigo e o numero, e faca push. Para remover: delete o bloco.",
+  "_exemplo_de_link": "https://oceanoimoveis.github.io/monte-athos/?c=david",
+  "padrao": {
+    "numero": "5527992436034",
+    "nome": "Oceano Imoveis"
+  },
+  "corretores": {
+    "david": {
+      "numero": "5527998121015",
+      "nome": "David Costa"
+    },
+    "carol": {
+      "numero": "5527999004123",
+      "nome": "Carol"
+    },
+    "oceano2": {
+      "numero": "5527992038013",
+      "nome": "Oceano Imoveis 2"
+    },
+    "oceano3": {
+      "numero": "5527992026390",
+      "nome": "Oceano Imoveis 3"
+    }
+  }
+}

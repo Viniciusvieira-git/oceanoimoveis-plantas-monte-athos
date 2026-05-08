@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#1f4d2c">
+  <title>Monte Athos | Escolha Sua Unidade</title>
+  <meta name="description" content="Escolha a coluna, andar, tipologia e posicao solar do seu apartamento no Monte Athos - Torre B.">
+  <link rel="canonical" href="https://oceanoimoveis.github.io/monte-athos/">
+
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Monte Athos | Escolha Sua Unidade">
+  <meta property="og:description" content="Escolha a coluna, andar, tipologia e posicao solar do seu apartamento no Monte Athos.">
+  <meta property="og:url" content="https://oceanoimoveis.github.io/monte-athos/">
+  <meta property="og:site_name" content="Oceano Imoveis">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Monte Athos | Escolha Sua Unidade">
+  <meta name="twitter:description" content="Escolha a coluna, andar, tipologia e posicao solar do seu apartamento.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f4f0e6;
+      --paper: #fbf7ec;
+      --surface: #ffffff;
+      --ink: #1c2a20;
+      --ink-soft: #4a5b50;
+      --muted: #7d8c81;
+      --line: #d8e0d4;
+      --brand: #1f4d2c;
+      --brand-deep: #11341b;
+      --brand-soft: #2f6b3f;
+      --accent: #e87917;
+      --accent-deep: #c45f0a;
+      --gold: #d4a017;
+      --morning: #1497D8;
+      --afternoon: #D55210;
+      --shadow: 0 18px 50px rgba(17, 52, 27, 0.14);
+      --radius-xl: 28px;
+      --radius-lg: 22px;
+      --radius-md: 18px;
+      --max: 1180px;
+      --font: "Plus Jakarta Sans", system-ui, sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--font);
+      background:
+        radial-gradient(circle at top left, rgba(31, 77, 44, 0.10), transparent 24%),
+        linear-gradient(180deg, #f8f5ea 0%, var(--bg) 46%, #ece7d6 100%);
+      color: var(--ink);
+      line-height: 1.5;
+    }
+    body.lightbox-open { overflow: hidden; }
+    img { display: block; max-width: 100%; height: auto; }
+    a { color: inherit; text-decoration: none; }
+    button, input { font: inherit; }
+    .shell { width: min(calc(100% - 28px), var(--max)); margin: 0 auto; }
+
+    .topbar {
+      position: sticky; top: 0; z-index: 40; backdrop-filter: blur(14px);
+      background: rgba(248, 245, 234, 0.92); border-bottom: 1px solid rgba(31, 77, 44, 0.10);
+      transition: transform 0.28s ease, opacity 0.28s ease, box-shadow 0.28s ease;
+    }
+    .topbar.is-hidden { transform: translateY(-120%); opacity: 0; pointer-events: none; }
+    .topbar-inner {
+      width: min(calc(100% - 28px), var(--max)); margin: 0 auto; padding: 14px 0;
+      display: flex; align-items: center; justify-content: space-between; gap: 12px;
+    }
+    .brand { display: inline-flex; align-items: center; gap: 10px; min-width: 0; }
+    .brand-logo { height: 38px; width: auto; filter: drop-shadow(0 8px 18px rgba(17, 52, 27, 0.16)); }
+    .topbar-actions { display: flex; align-items: center; gap: 10px; }
+    .nav-cta { display: none; }
+    .nav-cta.is-visible { display: inline-flex; }
+    .wa-button {
+      display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+      padding: 12px 18px; border-radius: 999px;
+      background: linear-gradient(135deg, var(--accent), #f59342); color: #fff;
+      font-size: 13px; font-weight: 800; letter-spacing: 0.02em;
+      box-shadow: 0 10px 24px rgba(232, 121, 23, 0.28); white-space: nowrap;
+    }
+
+    .hero { padding: 24px 0 18px; }
+    .hero-panel {
+      position: relative; overflow: hidden; border-radius: var(--radius-xl);
+      background:
+        radial-gradient(circle at top right, rgba(255, 255, 255, 0.10), transparent 30%),
+        linear-gradient(140deg, #2f6b3f 0%, #1f4d2c 45%, #11341b 100%);
+      color: #f4f0e6; padding: 34px 20px; box-shadow: var(--shadow);
+      background-size: 130% 130%;
+      animation: heroGradientDrift 12s ease-in-out infinite alternate;
+      display: grid; gap: 22px; align-items: center;
+    }
+    .hero-copy { display: grid; gap: 18px; animation: heroAppear 0.7s ease-out both; }
+    .hero-eyebrow {
+      display: inline-flex; align-items: center; gap: 10px;
+      font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; font-weight: 800;
+      color: rgba(244, 240, 230, 0.86);
+    }
+    .hero-eyebrow::before { content: ""; width: 28px; height: 1px; background: currentColor; opacity: 0.6; }
+    .hero-copy h1 {
+      font-size: clamp(34px, 9vw, 60px); line-height: 1.02; letter-spacing: -0.04em;
+      text-wrap: balance;
+    }
+    .hero-copy p { color: rgba(244, 240, 230, 0.82); font-size: 15px; text-wrap: pretty; }
+    .hero-facade {
+      margin-top: 10px; border-radius: 24px; overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      box-shadow: 0 18px 32px rgba(10, 24, 14, 0.32);
+      animation: heroAppear 0.9s ease-out both;
+    }
+    .hero-facade img { width: 100%; height: auto; object-fit: cover; display: block; }
+    @keyframes heroAppear { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes heroGradientDrift { from { background-position: 0% 50%; } to { background-position: 100% 50%; } }
+
+    main { padding-bottom: 42px; }
+    section { padding: 18px 0; }
+    .section-head { margin-bottom: 18px; }
+    .eyebrow {
+      display: inline-flex; align-items: center; gap: 10px; font-size: 11px; letter-spacing: 0.18em;
+      text-transform: uppercase; font-weight: 800; color: var(--brand); text-wrap: balance;
+    }
+    .eyebrow::before { content: ""; width: 28px; height: 1px; background: currentColor; opacity: 0.55; }
+
+    .panel {
+      background: rgba(255, 255, 255, 0.88); border: 1px solid rgba(31, 77, 44, 0.10);
+      border-radius: var(--radius-xl); box-shadow: var(--shadow); overflow: hidden;
+    }
+    .facts-grid { display: grid; gap: 10px; padding: 20px; }
+    .tech-row {
+      padding: 12px 14px; border-radius: 16px; background: var(--paper); border: 1px solid var(--line);
+      font-size: 14px; color: var(--ink-soft); text-wrap: pretty;
+    }
+    .tech-row strong { color: var(--ink); }
+    .tech-row-sub { padding-left: 18px; }
+
+    .selector { margin-top: 4px; }
+    .selector-panel {
+      padding: 18px; border-radius: 24px; background: rgba(251, 247, 236, 0.94);
+      border: 1px solid rgba(31, 77, 44, 0.12); box-shadow: 0 20px 40px rgba(17, 52, 27, 0.12);
+    }
+    .selector-copy { display: grid; gap: 8px; margin-bottom: 16px; }
+    .selector-copy strong { font-size: 16px; color: var(--ink); text-wrap: balance; }
+    .selector-copy p { font-size: 13px; color: var(--ink-soft); text-wrap: pretty; }
+    .selector-grid { display: grid; gap: 16px; }
+    .selector-group label {
+      display: block; margin-bottom: 8px; color: var(--muted); font-size: 11px; letter-spacing: 0.16em;
+      text-transform: uppercase; font-weight: 800;
+    }
+    .floor-row { display: grid; grid-template-columns: 1fr auto; gap: 14px; align-items: center; }
+    .floor-value {
+      min-width: 82px; text-align: right; color: var(--brand); font-size: 28px; line-height: 1;
+      font-weight: 800; letter-spacing: -0.04em;
+    }
+    input[type="range"] {
+      width: 100%; appearance: none; height: 6px; border-radius: 999px;
+      background: linear-gradient(90deg, #6c9b78, var(--brand)); outline: none;
+    }
+    input[type="range"]::-webkit-slider-thumb {
+      appearance: none; width: 22px; height: 22px; border-radius: 50%; border: 4px solid #fff;
+      background: var(--brand); box-shadow: 0 6px 18px rgba(31, 77, 44, 0.34);
+    }
+    .price-row { display: grid; gap: 8px; }
+    .price-row-track { display: grid; gap: 6px; }
+    .price-values {
+      display: flex; justify-content: space-between; align-items: center; gap: 8px;
+      font-size: 12px; color: var(--ink-soft); font-weight: 700;
+    }
+    .price-values strong { color: var(--brand); font-weight: 800; }
+    .chip-row { display: flex; gap: 8px; flex-wrap: wrap; }
+    .filter-chip {
+      border: 1px solid rgba(31, 77, 44, 0.16); background: #fff; color: var(--ink-soft);
+      border-radius: 999px; padding: 10px 14px; font-size: 12px; font-weight: 700; cursor: pointer;
+      transition: 0.18s ease; text-wrap: balance;
+    }
+    .filter-chip.active {
+      background: var(--brand); color: #fff; border-color: var(--brand);
+      box-shadow: 0 10px 22px rgba(31, 77, 44, 0.24);
+    }
+    .filter-chip:disabled, .filter-chip.is-disabled { opacity: 0.36; cursor: not-allowed; box-shadow: none; }
+    .floor-mode-row { margin-bottom: 12px; }
+    .floor-row.is-disabled { opacity: 0.45; }
+
+    .summary-bar {
+      display: flex; justify-content: space-between; gap: 12px; margin-top: 14px; padding-top: 14px;
+      border-top: 1px dashed rgba(31, 77, 44, 0.20); color: var(--ink-soft); font-size: 13px;
+      text-wrap: pretty;
+    }
+    .summary-bar strong { color: var(--brand); }
+    .clear-button {
+      align-self: flex-start; margin-top: 10px;
+      background: transparent; border: 1px solid rgba(31, 77, 44, 0.20);
+      color: var(--brand); padding: 8px 14px; border-radius: 999px;
+      font-size: 12px; font-weight: 700; cursor: pointer; transition: 0.18s ease;
+    }
+    .clear-button:hover { background: rgba(31, 77, 44, 0.08); }
+
+    .cards { display: grid; gap: 14px; margin-top: 18px; }
+    .empty {
+      display: none; padding: 22px; border-radius: 22px; background: rgba(251, 247, 236, 0.86);
+      border: 1px dashed rgba(31, 77, 44, 0.24); color: var(--ink-soft); text-align: center;
+    }
+    .unit-card {
+      display: grid; gap: 0; background: #fff;
+      border: 1px solid rgba(31, 77, 44, 0.18); border-radius: 24px; overflow: hidden; box-shadow: var(--shadow);
+    }
+    .unit-plant {
+      background: #fff; padding: 12px;
+      border-bottom: 1px solid rgba(31, 77, 44, 0.10);
+      cursor: zoom-in;
+    }
+    .unit-plant img {
+      width: 100%; border-radius: 18px; background: #fff; border: 1px solid rgba(31, 77, 44, 0.08);
+      object-fit: contain;
+    }
+    .unit-copy { padding: 16px; }
+    .unit-topbar {
+      display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 8px;
+    }
+    .unit-id {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; font-weight: 800;
+      color: var(--muted);
+    }
+    .unit-id strong { color: var(--brand); font-weight: 800; }
+    .unit-badge { display: inline-flex; align-items: center; gap: 8px; }
+    .unit-icon { width: 22px; height: 22px; object-fit: contain; }
+    .pill {
+      border-radius: 999px; padding: 8px 12px; font-size: 11px; text-transform: uppercase;
+      letter-spacing: 0.12em; font-weight: 800; white-space: nowrap;
+    }
+    .pill.manha { background: rgba(20, 151, 216, 0.14); color: #0d7fb8; }
+    .pill.tarde { background: rgba(213, 82, 16, 0.14); color: #b4420b; }
+
+    .unit-title { display: grid; gap: 6px; margin-bottom: 8px; }
+    .unit-title small {
+      color: var(--muted); font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; font-weight: 800;
+    }
+    .unit-title h3 {
+      font-size: 28px; line-height: 0.98; letter-spacing: -0.04em; text-wrap: balance; color: var(--brand);
+    }
+    .unit-floor {
+      font-size: 14px; color: var(--ink-soft); margin-bottom: 14px; font-weight: 700;
+      display: flex; flex-wrap: wrap; gap: 8px 14px;
+    }
+    .unit-floor span { display: inline-flex; align-items: center; gap: 4px; }
+    .unit-floor strong { color: var(--ink); }
+
+    .feature-grid {
+      display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-bottom: 16px;
+    }
+    .feature-box {
+      padding: 14px 14px 15px; border-radius: 22px; background: var(--paper); border: 1px solid rgba(31, 77, 44, 0.10);
+    }
+    .feature-box small {
+      display: block; margin-bottom: 8px; color: var(--muted); font-size: 11px; letter-spacing: 0.12em;
+      text-transform: uppercase; font-weight: 800;
+    }
+    .feature-box strong {
+      display: block; font-size: 17px; line-height: 1.18; color: var(--ink); text-wrap: pretty;
+    }
+    .feature-box.tipologia {
+      background: linear-gradient(135deg, rgba(31, 77, 44, 0.10), rgba(255, 255, 255, 0.94));
+      border-color: rgba(31, 77, 44, 0.20);
+    }
+    .feature-box.tipologia strong { color: var(--brand-deep); font-size: 16px; }
+    .feature-box.full { grid-column: 1 / -1; }
+
+    .finance-grid {
+      display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr); gap: 8px; margin-bottom: 14px;
+    }
+    .finance-box {
+      padding: 12px 10px; border-radius: 16px; background: #fff; border: 1px solid rgba(31, 77, 44, 0.12);
+      text-align: center; min-height: 78px; display: grid; align-content: center; gap: 4px;
+    }
+    .finance-box small {
+      display: block; color: var(--muted); font-size: 10px; letter-spacing: 0.10em;
+      text-transform: uppercase; font-weight: 800;
+    }
+    .finance-box strong {
+      display: block; font-size: 13px; line-height: 1.2; color: var(--ink); text-wrap: pretty;
+    }
+    .finance-box.label-only { padding-inline: 8px; }
+    .finance-box.label-only strong { font-size: 14px; line-height: 1.15; font-weight: 800; color: var(--ink); }
+    .finance-cef {
+      grid-column: 1 / -1;
+      background: linear-gradient(135deg, rgba(31, 77, 44, 0.06), rgba(255, 255, 255, 0.98));
+      border-color: rgba(31, 77, 44, 0.20);
+      text-align: left; padding: 14px 16px; min-height: 0;
+    }
+    .finance-cef small { letter-spacing: 0.12em; }
+    .finance-cef strong { font-size: 18px; color: var(--brand); }
+
+    .unit-actions { display: flex; }
+    .card-button {
+      display: inline-flex; align-items: center; justify-content: center; gap: 8px; width: 100%;
+      padding: 14px 18px; border-radius: 999px; font-weight: 800; letter-spacing: 0.02em;
+      border: 1px solid rgba(31, 77, 44, 0.14); text-wrap: balance; transition: 0.18s ease;
+    }
+    .card-button.primary {
+      background: linear-gradient(135deg, var(--accent), #f59342); color: #fff; border-color: transparent;
+      box-shadow: 0 10px 24px rgba(232, 121, 23, 0.26);
+    }
+    .card-button.primary:hover { transform: translateY(-1px); }
+
+    .map-frame { padding: 18px; }
+    .map-frame:not(:first-of-type) { padding-top: 0; }
+    .map-frame img {
+      width: 100%; border-radius: 22px; border: 1px solid rgba(31, 77, 44, 0.10);
+      background: #fff; box-shadow: 0 12px 34px rgba(17, 52, 27, 0.14);
+      cursor: zoom-in;
+    }
+    .map-frame iframe {
+      width: 100%; height: 360px; border: 0;
+      border-radius: 22px; background: #fff;
+      box-shadow: 0 12px 34px rgba(17, 52, 27, 0.14);
+    }
+    .address-bar {
+      display: flex; align-items: center; gap: 14px;
+      padding: 18px; flex-wrap: wrap;
+      border-bottom: 1px solid rgba(31, 77, 44, 0.08);
+    }
+    .address-bar svg { width: 26px; height: 26px; color: var(--brand); flex-shrink: 0; }
+    .address-bar > div { display: flex; flex-direction: column; gap: 2px; flex: 1 1 200px; }
+    .address-bar strong { font-size: 16px; color: var(--ink); letter-spacing: -0.01em; }
+    .address-bar span { font-size: 13px; color: var(--ink-soft); }
+    .address-cta {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 10px 16px; border-radius: 999px;
+      background: var(--brand); color: #fff;
+      font-size: 12px; font-weight: 800; letter-spacing: 0.02em;
+      box-shadow: 0 8px 18px rgba(31, 77, 44, 0.26);
+      transition: 0.2s ease;
+      white-space: nowrap;
+    }
+    .address-cta:hover { background: var(--brand-deep); transform: translateY(-1px); }
+
+    .columns-frame { padding: 18px; display: grid; gap: 12px; }
+    .columns-frame img {
+      width: 100%; border-radius: 22px; border: 1px solid rgba(31, 77, 44, 0.10);
+      background: #fff; box-shadow: 0 12px 34px rgba(17, 52, 27, 0.14);
+      cursor: zoom-in;
+    }
+    .columns-frame p { font-size: 13px; color: var(--ink-soft); text-align: center; text-wrap: pretty; }
+
+    .gallery-grid { display: grid; gap: 12px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .gallery-tile {
+      overflow: hidden; border-radius: 20px; min-height: 180px; box-shadow: var(--shadow);
+      border: 1px solid rgba(31, 77, 44, 0.10); background: #e7e1d2;
+      cursor: zoom-in;
+    }
+    .gallery-tile img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease; }
+    .gallery-tile:hover img { transform: scale(1.04); }
+
+    .lightbox {
+      position: fixed; inset: 0; z-index: 90; background: rgba(8, 16, 12, 0.94);
+      display: none; align-items: center; justify-content: center; padding: 16px;
+    }
+    .lightbox.open { display: flex; }
+    .lightbox-dialog { width: min(100%, 980px); display: grid; gap: 14px; }
+    .lightbox-topbar { display: flex; align-items: center; justify-content: flex-end; gap: 12px; color: #fff; }
+    .lightbox-close {
+      border: 0; background: rgba(255, 255, 255, 0.14); color: #fff; cursor: pointer;
+      width: 42px; height: 42px; border-radius: 999px; font-size: 20px;
+    }
+    .lightbox-stage {
+      position: relative; border-radius: 24px; overflow: hidden; background: #0e1a13;
+      min-height: 320px; display: grid; place-items: center;
+    }
+    .lightbox-stage img { width: 100%; max-height: 78vh; object-fit: contain; }
+
+    .dock-bar {
+      position: fixed; left: 0; right: 0; bottom: 14px;
+      margin-left: auto; margin-right: auto;
+      width: calc(100% - 24px); max-width: 720px;
+      z-index: 50; display: flex; gap: 6px; padding: 8px 14px;
+      justify-content: space-around; align-items: center;
+      background: linear-gradient(135deg, var(--brand-soft) 0%, var(--brand) 50%, var(--brand-deep) 100%);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      border-radius: 999px;
+      box-shadow: 0 18px 44px rgba(17, 52, 27, 0.36), 0 2px 0 rgba(255, 255, 255, 0.10) inset;
+      opacity: 0; pointer-events: none;
+      transition: opacity 0.3s ease;
+    }
+    .dock-bar.is-visible { opacity: 1; pointer-events: auto; }
+    .dock-item {
+      width: 42px; height: 42px; border-radius: 999px;
+      display: inline-flex; align-items: center; justify-content: center;
+      color: rgba(244, 240, 230, 0.80);
+      transition: 0.2s ease;
+    }
+    .dock-item svg { width: 20px; height: 20px; }
+    .dock-item:hover { color: #fff; background: rgba(255, 255, 255, 0.14); transform: scale(1.08); }
+    .dock-item.is-active { color: #fff; background: rgba(255, 255, 255, 0.18); box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.10) inset; }
+    .dock-item-cta {
+      background: linear-gradient(135deg, var(--accent), #f59342);
+      color: #fff;
+      box-shadow: 0 6px 16px rgba(232, 121, 23, 0.40);
+    }
+    .dock-item-cta:hover { background: linear-gradient(135deg, var(--accent-deep), var(--accent)); color: #fff; }
+    .dock-item-cta.is-active {
+      background: linear-gradient(135deg, var(--accent-deep), var(--accent));
+      box-shadow: 0 6px 18px rgba(232, 121, 23, 0.50), 0 0 0 2px rgba(255, 255, 255, 0.20) inset;
+    }
+    @media (max-width: 480px) {
+      .dock-bar { gap: 0; padding: 6px; }
+      .dock-item { width: 38px; height: 38px; }
+      .dock-item svg { width: 18px; height: 18px; }
+    }
+
+    .back-to-filter {
+      position: fixed; right: 16px; bottom: 88px; z-index: 35;
+      width: 48px; height: 48px; border-radius: 999px; border: 0;
+      display: inline-flex; align-items: center; justify-content: center;
+      background: linear-gradient(135deg, var(--brand-soft), var(--brand-deep));
+      color: #fff; font-size: 22px; font-weight: 800; cursor: pointer;
+      box-shadow: 0 14px 28px rgba(17, 52, 27, 0.34);
+      opacity: 0; pointer-events: none; transform: translateY(12px);
+      transition: opacity 0.22s ease, transform 0.22s ease;
+    }
+    .back-to-filter.is-visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+
+    .footer { padding: 28px 0 110px; color: var(--ink-soft); font-size: 13px; text-align: center; text-wrap: pretty; }
+    .footer strong { color: var(--ink); }
+    .footer-creci {
+      display: inline-block; margin-top: 6px;
+      font-size: 11px; letter-spacing: 0.20em; text-transform: uppercase;
+      font-weight: 800; color: var(--brand);
+      padding: 4px 12px; border-radius: 999px;
+      background: rgba(31, 77, 44, 0.10); border: 1px solid rgba(31, 77, 44, 0.18);
+    }
+    .footer-tagline {
+      max-width: 520px; margin: 0 auto 14px;
+      font-size: 14px; font-weight: 700; color: var(--brand-deep);
+      letter-spacing: -0.01em; text-wrap: balance;
+    }
+    .footer-links { display: flex; justify-content: center; gap: 10px 18px; flex-wrap: wrap; margin-top: 10px; }
+    .footer-note { margin-top: 14px; font-size: 12px; }
+
+    @media (min-width: 760px) {
+      .hero-panel { padding: 42px 36px; grid-template-columns: 1.1fr 0.9fr; gap: 36px; }
+      .hero-copy { max-width: 540px; }
+      .hero-facade { margin-top: 0; }
+      .selector-grid { grid-template-columns: 1.1fr 1fr; }
+      .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .gallery-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    }
+
+    @media (min-width: 1080px) {
+      .cards { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .gallery-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar" id="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#top" aria-label="Voltar ao topo">
+        <img class="brand-logo" src="assets/brand/logo-oceano-azul.png" alt="Oceano Imoveis">
+      </a>
+
+      <div class="topbar-actions">
+        <a class="wa-button nav-cta" id="navGalleryCta" href="#selecione-unidade">Escolher unidade</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="shell" id="top">
+    <section class="hero">
+      <div class="hero-panel">
+        <div class="hero-copy">
+          <span class="hero-eyebrow">Residencial Monte Athos - Torre B</span>
+          <h1>Encontre o apartamento ideal para o seu momento.</h1>
+          <p>Escolha a coluna, andar, tipologia e posicao solar. Veja o valor exato de cada unidade disponivel.</p>
+        </div>
+        <div class="hero-facade">
+          <img src="assets/tower/fachada-athos.png" alt="Fachada do empreendimento Monte Athos" onerror="this.parentElement.style.display='none'">
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section id="ficha-tecnica">
+        <div class="section-head"><span class="eyebrow">01 - Ficha tecnica</span></div>
+        <div class="panel">
+          <div class="facts-grid">
+            <div class="tech-row"><strong>Empreendimento:</strong> Residencial Monte Athos</div>
+            <div class="tech-row"><strong>Torre em comercializacao:</strong> Torre B</div>
+            <div class="tech-row"><strong>Pavimentos:</strong> 4o ao 18o andar (15 pavimentos comerciais)</div>
+            <div class="tech-row"><strong>Colunas:</strong> 14 unidades por andar (colunas 01 a 14)</div>
+            <div class="tech-row"><strong>Tipologias:</strong> 2 Quartos (45,47 a 47,85 m²) e 2 Quartos com Suite (47,56 a 53,71 m²)</div>
+            <div class="tech-row"><strong>Vagas:</strong> Cada unidade acompanha vaga de garagem (P-XX subsolo ou T-XX terreo)</div>
+            <div class="tech-row"><strong>Pagamento:</strong> Entrada (1x) + 60 mensais + 5 anuais + Financiamento CEF</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="localizacao">
+        <div class="section-head"><span class="eyebrow">02 - Localizacao</span></div>
+        <div class="panel">
+          <div class="address-bar">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div>
+              <strong>Residencial Monte Athos</strong>
+              <span>Vila Velha - ES</span>
+            </div>
+            <a class="address-cta" href="https://www.google.com/maps/place/Monte+Athos/@-20.3574086,-40.3091436,17z" target="_blank" rel="noopener">Abrir no Google Maps</a>
+          </div>
+          <div class="map-frame">
+            <iframe
+              title="Localizacao do Monte Athos"
+              src="https://maps.google.com/maps?q=Monte+Athos+Vila+Velha&t=m&z=16&ie=UTF8&iwloc=&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen></iframe>
+          </div>
+          <div class="map-frame">
+            <img src="assets/tower/mapa-solar-athos.png" alt="Mapa solar do Monte Athos" loading="lazy" onerror="this.parentElement.style.display='none'">
+          </div>
+        </div>
+      </section>
+
+      <section id="mapa-colunas">
+        <div class="section-head"><span class="eyebrow">03 - Mapa de colunas</span></div>
+        <div class="panel">
+          <div class="columns-frame">
+            <img src="assets/tower/mapa-solar-athos.png" alt="Mapa das colunas de cada andar" onerror="this.style.display='none'">
+            <p>Veja em qual coluna esta sua unidade preferida. Colunas pares recebem sol da manha; colunas impares, sol da tarde.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="selecione-unidade">
+        <div class="section-head"><span class="eyebrow">04 - Escolha sua unidade</span></div>
+        <div class="selector">
+          <div class="selector-panel">
+            <div class="selector-copy">
+              <strong>Filtre pelo que mais importa para voce.</strong>
+              <p>Cada filtro reduz a lista. Voce pode combinar coluna, andar, tipologia, posicao solar e faixa de preco.</p>
+            </div>
+            <div class="selector-grid">
+              <div class="selector-group">
+                <label>Coluna</label>
+                <div class="chip-row" id="colunaFilter"></div>
+              </div>
+
+              <div class="selector-group">
+                <label for="floorRange">Andar</label>
+                <div class="chip-row floor-mode-row">
+                  <button class="filter-chip active" id="allFloorsButton" type="button">Todos os andares</button>
+                  <button class="filter-chip" id="specificFloorButton" type="button">Andar especifico</button>
+                </div>
+                <div class="floor-row">
+                  <input id="floorRange" type="range" min="4" max="18" value="4" step="1">
+                  <div class="floor-value"><span id="floorValue">Todos</span></div>
+                </div>
+              </div>
+
+              <div class="selector-group">
+                <label>Tipologia</label>
+                <div class="chip-row" id="tipologiaFilter"></div>
+              </div>
+
+              <div class="selector-group">
+                <label>Posicao solar</label>
+                <div class="chip-row">
+                  <button class="filter-chip active" data-filter="solar" data-value="all">Todas</button>
+                  <button class="filter-chip" data-filter="solar" data-value="manha">Sol da manha</button>
+                  <button class="filter-chip" data-filter="solar" data-value="tarde">Sol da tarde</button>
+                </div>
+              </div>
+
+              <div class="selector-group">
+                <label for="priceRange">Faixa de preco</label>
+                <div class="price-row">
+                  <div class="price-row-track">
+                    <input id="priceRange" type="range" min="0" max="0" value="0" step="500">
+                    <div class="price-values">
+                      <span>Ate <strong id="priceValue">R$ 0</strong></span>
+                      <span id="priceMaxLabel">R$ 0</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="summary-bar">
+              <span>Mostrando <strong id="countValue">0</strong> unidade(s).</span>
+              <span id="summaryPrice">A partir de R$ 0,00</span>
+            </div>
+            <button class="clear-button" id="clearFilters" type="button">Limpar filtros</button>
+          </div>
+        </div>
+        <div class="cards" id="cards"></div>
+        <div class="empty" id="emptyState">Nenhuma unidade combina com os filtros ativos. Clique em "Limpar filtros" para recomecar.</div>
+      </section>
+
+      <section id="galeria">
+        <div class="section-head"><span class="eyebrow">05 - Galeria de imagens</span></div>
+        <div class="gallery-grid" id="galleryGrid"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-tagline">Pagina dedicada a selecao de unidades do Residencial Monte Athos - Torre B</div>
+      <strong>Oceano Imoveis</strong> - Vila Velha/ES
+      <div class="footer-creci">CRECI 7475</div>
+      <div class="footer-links">
+        <a href="https://www.instagram.com/oceanoimoveis.es/" target="_blank" rel="noopener">@oceanoimoveis.es</a>
+        <a href="https://www.oceanoimoveis.com.br/" target="_blank" rel="noopener">www.oceanoimoveis.com.br</a>
+        <a href="https://wa.me/5527992436034?text=Tenho%20interesse%20em%20uma%20unidade%20do%20Monte%20Athos." target="_blank" rel="noopener">(27) 99243-6034</a>
+      </div>
+      <div class="footer-note">Valores e disponibilidade sujeitos a alteracao sem aviso previo.</div>
+    </footer>
+  </div>
+
+  <nav class="dock-bar" id="dockBar" aria-label="Navegacao principal">
+    <a class="dock-item" href="#ficha-tecnica" data-section="ficha-tecnica" aria-label="Ficha tecnica" title="Ficha tecnica">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="17" x2="15" y2="17"/></svg>
+    </a>
+    <a class="dock-item" href="#localizacao" data-section="localizacao" aria-label="Localizacao" title="Localizacao">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+    </a>
+    <a class="dock-item" href="#mapa-colunas" data-section="mapa-colunas" aria-label="Mapa de colunas" title="Mapa de colunas">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="4" height="16" rx="1"/><rect x="10" y="4" width="4" height="16" rx="1"/><rect x="16" y="4" width="4" height="16" rx="1"/></svg>
+    </a>
+    <a class="dock-item dock-item-cta" href="#selecione-unidade" data-section="selecione-unidade" aria-label="Escolher unidade" title="Escolher unidade">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    </a>
+    <a class="dock-item" href="#galeria" data-section="galeria" aria-label="Galeria" title="Galeria">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+    </a>
+  </nav>
+
+  <button class="back-to-filter" id="backToFilter" type="button" aria-label="Voltar ao filtro">↑</button>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightbox-dialog">
+      <div class="lightbox-topbar">
+        <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Fechar">×</button>
+      </div>
+      <div class="lightbox-stage">
+        <img id="lightboxImage" src="" alt="Imagem ampliada">
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const GALLERY_IMAGES = [
+      "athos-001.png","athos-002.png","athos-003.jpg","athos-004.jpg","athos-005.jpg","athos-006.jpg","athos-007.jpg","athos-008.jpg","athos-009.jpg","athos-010.jpg","athos-011.jpg","athos-012.jpg","athos-013.jpg","athos-014.jpg","athos-015.jpg","athos-016.jpg","athos-017.jpg","athos-018.jpg","athos-019.jpg","athos-020.jpg","athos-021.jpg","athos-022.jpg","athos-023.jpg","athos-024.jpg","athos-025.jpg","athos-026.jpg","athos-027.jpg"
+    ];
+
+    const state = {
+      coluna: "all",
+      floor: "all",
+      tipologia: "all",
+      solar: "all",
+      precoMax: null,
+      units: [],
+      whatsappNumber: "5527992436034"
+    };
+
+    const CORRETOR_STORAGE_KEY = "athos_corretor_v1";
+    const CORRETOR_TTL_MS = 30 * 24 * 60 * 60 * 1000;
+
+    const cardsEl = document.getElementById("cards");
+    const emptyEl = document.getElementById("emptyState");
+    const galleryGridEl = document.getElementById("galleryGrid");
+    const colunaFilterEl = document.getElementById("colunaFilter");
+    const tipologiaFilterEl = document.getElementById("tipologiaFilter");
+    const floorRowEl = document.querySelector(".floor-row");
+    const floorRangeEl = document.getElementById("floorRange");
+    const floorValueEl = document.getElementById("floorValue");
+    const priceRangeEl = document.getElementById("priceRange");
+    const priceValueEl = document.getElementById("priceValue");
+    const priceMaxLabelEl = document.getElementById("priceMaxLabel");
+    const countValueEl = document.getElementById("countValue");
+    const summaryPriceEl = document.getElementById("summaryPrice");
+    const allFloorsButtonEl = document.getElementById("allFloorsButton");
+    const specificFloorButtonEl = document.getElementById("specificFloorButton");
+    const clearFiltersEl = document.getElementById("clearFilters");
+    const topbarEl = document.getElementById("topbar");
+    const navGalleryCtaEl = document.getElementById("navGalleryCta");
+    const heroSectionEl = document.querySelector(".hero");
+    const backToFilterEl = document.getElementById("backToFilter");
+    const unitsSectionEl = document.getElementById("selecione-unidade");
+    const lightboxEl = document.getElementById("lightbox");
+    const lightboxImageEl = document.getElementById("lightboxImage");
+    const lightboxCloseEl = document.getElementById("lightboxClose");
+    const dockBarEl = document.getElementById("dockBar");
+    const dockItems = dockBarEl ? Array.from(dockBarEl.querySelectorAll(".dock-item")) : [];
+
+    const money = new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" });
+    const moneyShort = new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL", maximumFractionDigits: 0 });
+
+    function toWhatsApp(unit) {
+      const message = encodeURIComponent(
+        `Tenho interesse na unidade ${unit.id} do Monte Athos - Torre B. ` +
+        `${unit.pavimento}o andar, coluna ${unit.coluna}, ` +
+        `${unit.area_privativa.toLocaleString("pt-BR")} m², ${unit.tipologia_curta}, ${unit.posicao_solar_label}.`
+      );
+      return `https://wa.me/${state.whatsappNumber}?text=${message}`;
+    }
+
+    async function resolveCorretor() {
+      try {
+        const response = await fetch("data/corretores.json");
+        const data = await response.json();
+        const padrao = (data && data.padrao && data.padrao.numero) || "5527992436034";
+        const corretores = (data && data.corretores) || {};
+
+        const url = new URL(window.location.href);
+        const codigoFromUrl = (url.searchParams.get("c") || "").toLowerCase().trim();
+
+        let codigoFinal = null;
+
+        if (codigoFromUrl && corretores[codigoFromUrl]) {
+          codigoFinal = codigoFromUrl;
+          try {
+            localStorage.setItem(CORRETOR_STORAGE_KEY, JSON.stringify({
+              codigo: codigoFromUrl,
+              expiresAt: Date.now() + CORRETOR_TTL_MS
+            }));
+          } catch (_) {}
+        } else {
+          try {
+            const saved = JSON.parse(localStorage.getItem(CORRETOR_STORAGE_KEY) || "null");
+            if (saved && saved.codigo && saved.expiresAt > Date.now() && corretores[saved.codigo]) {
+              codigoFinal = saved.codigo;
+            } else if (saved) {
+              localStorage.removeItem(CORRETOR_STORAGE_KEY);
+            }
+          } catch (_) {}
+        }
+
+        state.whatsappNumber = codigoFinal ? corretores[codigoFinal].numero : padrao;
+        updateStaticWhatsappLinks();
+      } catch (error) {
+        console.error("Falha ao carregar corretores:", error);
+      }
+    }
+
+    function updateStaticWhatsappLinks() {
+      document.querySelectorAll('a[href^="https://wa.me/"]').forEach((link) => {
+        try {
+          const u = new URL(link.href);
+          const text = u.searchParams.get("text") || "";
+          link.href = `https://wa.me/${state.whatsappNumber}${text ? `?text=${encodeURIComponent(text)}` : ""}`;
+        } catch (_) {}
+      });
+    }
+
+    function matchesState(unit, candidateState) {
+      if (candidateState.coluna !== "all" && unit.coluna !== candidateState.coluna) return false;
+      if (candidateState.floor !== "all" && unit.pavimento !== candidateState.floor) return false;
+      if (candidateState.tipologia !== "all" && unit.tipologia !== candidateState.tipologia) return false;
+      if (candidateState.solar !== "all" && unit.posicao_solar !== candidateState.solar) return false;
+      if (candidateState.precoMax !== null && unit.valor_total > candidateState.precoMax) return false;
+      return true;
+    }
+
+    function currentUnits() {
+      return state.units
+        .filter((unit) => matchesState(unit, state))
+        .sort((a, b) => {
+          if (a.pavimento !== b.pavimento) return a.pavimento - b.pavimento;
+          return Number(a.coluna) - Number(b.coluna);
+        });
+    }
+
+    function renderCard(unit) {
+      return `
+        <article class="unit-card">
+          <a class="unit-plant" href="#planta-${unit.id}" data-plant="${unit.planta}">
+            <img src="${unit.planta}" alt="Planta ${unit.tipologia_curta} - ${unit.area_privativa} m²" loading="lazy" onerror="this.parentElement.style.display='none'">
+          </a>
+          <div class="unit-copy">
+            <div class="unit-topbar">
+              <div class="unit-id">Unidade <strong>${unit.id}</strong></div>
+              <div class="unit-badge">
+                <img class="unit-icon" src="assets/brand/icon-oceano-azul.png" alt="Oceano Imoveis" onerror="this.style.display='none'">
+                <span class="pill ${unit.posicao_solar}">${unit.posicao_solar_label}</span>
+              </div>
+            </div>
+
+            <div class="unit-title">
+              <small>A partir de</small>
+              <h3>${money.format(unit.valor_total)}</h3>
+            </div>
+
+            <div class="unit-floor">
+              <span>Torre <strong>${unit.torre}</strong></span>
+              <span>${unit.pavimento}o andar</span>
+              <span>Coluna <strong>${unit.coluna}</strong></span>
+              <span>Vaga <strong>${unit.vaga}</strong></span>
+            </div>
+
+            <div class="feature-grid">
+              <div class="feature-box tipologia">
+                <small>Tipologia</small>
+                <strong>${unit.tipologia_curta}</strong>
+              </div>
+              <div class="feature-box">
+                <small>Area privativa</small>
+                <strong>${unit.area_privativa.toLocaleString("pt-BR")} m²</strong>
+              </div>
+            </div>
+
+            <div class="finance-grid">
+              <div class="finance-box label-only">
+                <strong>Entrada<br>(ato)</strong>
+              </div>
+              <div class="finance-box label-only">
+                <strong>60x<br>mensais</strong>
+              </div>
+              <div class="finance-box label-only">
+                <strong>5x<br>anuais</strong>
+              </div>
+              <div class="finance-box finance-cef">
+                <small>Financiamento (CEF)</small>
+                <strong>${money.format(unit.financiamento)}</strong>
+              </div>
+            </div>
+
+            <div class="unit-actions">
+              <a class="card-button primary" href="${toWhatsApp(unit)}" target="_blank" rel="noopener">Quero esta unidade</a>
+            </div>
+          </div>
+        </article>
+      `;
+    }
+
+    function renderColunaFilter() {
+      const colunas = [...new Set(state.units.map((unit) => unit.coluna))].sort();
+      colunaFilterEl.innerHTML = [
+        '<button class="filter-chip active" data-filter="coluna" data-value="all">Todas</button>',
+        ...colunas.map((coluna) => `<button class="filter-chip" data-filter="coluna" data-value="${coluna}">Coluna ${coluna}</button>`)
+      ].join("");
+    }
+
+    function renderTipologiaFilter() {
+      const tipos = [...new Map(state.units.map((unit) => [unit.tipologia, unit.tipologia_curta])).entries()];
+      tipologiaFilterEl.innerHTML = [
+        '<button class="filter-chip active" data-filter="tipologia" data-value="all">Todas</button>',
+        ...tipos.map(([value, label]) => `<button class="filter-chip" data-filter="tipologia" data-value="${value}">${label}</button>`)
+      ].join("");
+    }
+
+    function updateFilterAvailability() {
+      ["coluna", "tipologia", "solar"].forEach((filter) => {
+        document.querySelectorAll(`[data-filter="${filter}"]`).forEach((button) => {
+          const value = button.dataset.value;
+          const enabled = value === "all" || state.units.some((unit) => matchesState(unit, { ...state, [filter]: value }));
+          button.disabled = !enabled;
+          button.classList.toggle("is-disabled", !enabled);
+          button.classList.toggle("active", state[filter] === value);
+        });
+      });
+    }
+
+    function render() {
+      updateFilterAvailability();
+      const allFloors = state.floor === "all";
+      floorRangeEl.disabled = allFloors;
+      floorRowEl.classList.toggle("is-disabled", allFloors);
+      allFloorsButtonEl.classList.toggle("active", allFloors);
+      specificFloorButtonEl.classList.toggle("active", !allFloors);
+      floorValueEl.textContent = allFloors ? "Todos" : `${state.floor}o`;
+
+      const visible = currentUnits();
+      countValueEl.textContent = String(visible.length);
+      cardsEl.innerHTML = visible.map(renderCard).join("");
+      emptyEl.style.display = visible.length ? "none" : "block";
+      const minValue = visible.length ? Math.min(...visible.map((unit) => unit.valor_total)) : 0;
+      summaryPriceEl.textContent = visible.length ? `A partir de ${money.format(minValue)}` : "Sem unidades para os filtros ativos";
+
+      cardsEl.querySelectorAll(".unit-plant").forEach((el) => {
+        el.addEventListener("click", (event) => {
+          event.preventDefault();
+          openLightbox(el.dataset.plant);
+        });
+      });
+
+      syncTopbar();
+      syncBackToFilter();
+    }
+
+    function activateFilterButtons() {
+      document.querySelectorAll("[data-filter]").forEach((button) => {
+        button.addEventListener("click", () => {
+          if (button.disabled) return;
+          const filter = button.dataset.filter;
+          const value = button.dataset.value;
+          state[filter] = value;
+          render();
+        });
+      });
+    }
+
+    function openLightbox(src) {
+      lightboxImageEl.src = src;
+      lightboxEl.classList.add("open");
+      lightboxEl.setAttribute("aria-hidden", "false");
+      document.body.classList.add("lightbox-open");
+    }
+    function closeLightbox() {
+      lightboxEl.classList.remove("open");
+      lightboxEl.setAttribute("aria-hidden", "true");
+      document.body.classList.remove("lightbox-open");
+    }
+
+    function renderGallery() {
+      galleryGridEl.innerHTML = GALLERY_IMAGES.map((image, index) => `
+        <a class="gallery-tile" href="#galeria-${index + 1}" data-gallery-src="assets/gallery/${image}">
+          <img src="assets/gallery/${image}" alt="Render ${index + 1} do Monte Athos" loading="lazy" onerror="this.parentElement.style.display='none'">
+        </a>
+      `).join("");
+      galleryGridEl.querySelectorAll("[data-gallery-src]").forEach((link) => {
+        link.addEventListener("click", (event) => {
+          event.preventDefault();
+          openLightbox(link.dataset.gallerySrc);
+        });
+      });
+    }
+
+    function attachMapZoom() {
+      document.querySelectorAll(".map-frame img, .columns-frame img").forEach((img) => {
+        img.addEventListener("click", () => openLightbox(img.src));
+      });
+    }
+
+    function syncTopbar() {
+      const heroRect = heroSectionEl.getBoundingClientRect();
+      const unitsRect = unitsSectionEl.getBoundingClientRect();
+      const inUnits = unitsRect.top <= 90 && unitsRect.bottom > 130;
+      topbarEl.classList.toggle("is-hidden", inUnits);
+      navGalleryCtaEl.classList.toggle("is-visible", heroRect.bottom < 80);
+    }
+
+    let lastScrollY = window.scrollY;
+    let scrollDirection = "down";
+
+    function syncBackToFilter() {
+      const currentY = window.scrollY;
+      if (Math.abs(currentY - lastScrollY) > 4) {
+        scrollDirection = currentY < lastScrollY ? "up" : "down";
+        lastScrollY = currentY;
+      }
+      const unitsRect = unitsSectionEl.getBoundingClientRect();
+      const pastUnits = unitsRect.top <= window.innerHeight * 0.45;
+      const nearTop = currentY < 200;
+      const shouldShow = pastUnits && scrollDirection === "up" && !nearTop;
+      backToFilterEl.classList.toggle("is-visible", shouldShow);
+    }
+
+    function syncDockBar() {
+      if (!dockBarEl) return;
+      const heroRect = heroSectionEl.getBoundingClientRect();
+      const shouldShow = heroRect.bottom < window.innerHeight * 0.4;
+      dockBarEl.classList.toggle("is-visible", shouldShow);
+
+      const offset = window.innerHeight * 0.35;
+      let active = null;
+      dockItems.forEach((item) => {
+        const id = item.dataset.section;
+        const target = id === "top" ? heroSectionEl : document.getElementById(id);
+        if (!target) return;
+        const rect = target.getBoundingClientRect();
+        if (rect.top <= offset && rect.bottom > offset) {
+          active = item;
+        }
+      });
+      dockItems.forEach((item) => item.classList.toggle("is-active", item === active));
+    }
+
+    allFloorsButtonEl.addEventListener("click", () => { state.floor = "all"; render(); });
+    specificFloorButtonEl.addEventListener("click", () => { state.floor = Number(floorRangeEl.value); render(); });
+    floorRangeEl.addEventListener("input", (event) => { state.floor = Number(event.target.value); render(); });
+
+    priceRangeEl.addEventListener("input", (event) => {
+      const value = Number(event.target.value);
+      const max = Number(priceRangeEl.max);
+      state.precoMax = value >= max ? null : value;
+      priceValueEl.textContent = state.precoMax === null ? `${moneyShort.format(max)} +` : moneyShort.format(value);
+      render();
+    });
+
+    clearFiltersEl.addEventListener("click", () => {
+      state.coluna = "all"; state.floor = "all"; state.tipologia = "all"; state.solar = "all"; state.precoMax = null;
+      const max = Number(priceRangeEl.max);
+      priceRangeEl.value = max;
+      priceValueEl.textContent = `${moneyShort.format(max)} +`;
+      render();
+    });
+
+    backToFilterEl.addEventListener("click", () => {
+      unitsSectionEl.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+
+    lightboxCloseEl.addEventListener("click", closeLightbox);
+    lightboxEl.addEventListener("click", (event) => { if (event.target === lightboxEl) closeLightbox(); });
+    document.addEventListener("keydown", (event) => { if (event.key === "Escape") closeLightbox(); });
+
+    window.addEventListener("scroll", syncTopbar, { passive: true });
+    window.addEventListener("scroll", syncBackToFilter, { passive: true });
+    window.addEventListener("scroll", syncDockBar, { passive: true });
+    window.addEventListener("resize", syncTopbar);
+    window.addEventListener("resize", syncBackToFilter);
+    window.addEventListener("resize", syncDockBar);
+
+    async function init() {
+      await resolveCorretor();
+      const response = await fetch("data/units.json");
+      state.units = await response.json();
+
+      const prices = state.units.map((u) => u.valor_total);
+      const minPrice = Math.floor(Math.min(...prices) / 1000) * 1000;
+      const maxPrice = Math.ceil(Math.max(...prices) / 1000) * 1000;
+      priceRangeEl.min = minPrice;
+      priceRangeEl.max = maxPrice;
+      priceRangeEl.value = maxPrice;
+      priceValueEl.textContent = `${moneyShort.format(maxPrice)} +`;
+      priceMaxLabelEl.textContent = `Min: ${moneyShort.format(minPrice)}`;
+
+      renderColunaFilter();
+      renderTipologiaFilter();
+      activateFilterButtons();
+      renderGallery();
+      attachMapZoom();
+      render();
+      syncDockBar();
+    }
+
+    init().catch((error) => {
+      cardsEl.innerHTML = "";
+      emptyEl.style.display = "block";
+      emptyEl.textContent = "Nao foi possivel carregar os dados das unidades.";
+      console.error(error);
+    });
+  </script>
+</body>
+</html>
