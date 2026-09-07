@@ -10,8 +10,8 @@
     "vaga": "P-88",
     "posicao_solar": "manha",
     "posicao_solar_label": "Sol da manhã",
-    "valor_total": 479000.0,
-    "financiamento": 335300.0,
+    "valor_total": 484000.0,
+    "financiamento": 338800.0,
     "planta": "assets/plants/apto-08-10.png"
   },
   {
@@ -25,8 +25,8 @@
     "vaga": "T-31",
     "posicao_solar": "manha",
     "posicao_solar_label": "Sol da manhã",
-    "valor_total": 607500.0,
-    "financiamento": 425250.0,
+    "valor_total": 612500.0,
+    "financiamento": 428750.0,
     "planta": "assets/plants/apto-01-02-13-14.png"
   },
   {
@@ -40,8 +40,8 @@
     "vaga": "P-20",
     "posicao_solar": "manha",
     "posicao_solar_label": "Sol da manhã",
-    "valor_total": 467000.0,
-    "financiamento": 326900.0,
+    "valor_total": 472000.0,
+    "financiamento": 330400.0,
     "planta": "assets/plants/apto-08-10.png"
   },
   {
@@ -55,8 +55,8 @@
     "vaga": "T-102",
     "posicao_solar": "manha",
     "posicao_solar_label": "Sol da manhã",
-    "valor_total": 522000.0,
-    "financiamento": 365400.0,
+    "valor_total": 527000.0,
+    "financiamento": 368900.0,
     "planta": "assets/plants/apto-12.png"
   },
   {
@@ -70,8 +70,8 @@
     "vaga": "T-48",
     "posicao_solar": "tarde",
     "posicao_solar_label": "Sol da tarde",
-    "valor_total": 555500.0,
-    "financiamento": 388850.0,
+    "valor_total": 560500.0,
+    "financiamento": 392350.0,
     "planta": "assets/plants/apto-03.png"
   },
   {
@@ -85,8 +85,8 @@
     "vaga": "P-130",
     "posicao_solar": "manha",
     "posicao_solar_label": "Sol da manhã",
-    "valor_total": 505500.0,
-    "financiamento": 353850.0,
+    "valor_total": 510500.0,
+    "financiamento": 357350.0,
     "planta": "assets/plants/apto-06.png"
   },
   {
@@ -100,8 +100,8 @@
     "vaga": "P-50",
     "posicao_solar": "manha",
     "posicao_solar_label": "Sol da manhã",
-    "valor_total": 585500.0,
-    "financiamento": 409850.0,
+    "valor_total": 590500.0,
+    "financiamento": 413350.0,
     "planta": "assets/plants/apto-01-02-13-14.png"
   },
   {
@@ -115,8 +115,8 @@
     "vaga": "T-51",
     "posicao_solar": "tarde",
     "posicao_solar_label": "Sol da tarde",
-    "valor_total": 559000.0,
-    "financiamento": 391300.0,
+    "valor_total": 564000.0,
+    "financiamento": 394800.0,
     "planta": "assets/plants/apto-03.png"
   },
   {
@@ -130,8 +130,8 @@
     "vaga": "T-39",
     "posicao_solar": "manha",
     "posicao_solar_label": "Sol da manhã",
-    "valor_total": 614500.0,
-    "financiamento": 430150.0,
+    "valor_total": 619500.0,
+    "financiamento": 433650.0,
     "planta": "assets/plants/apto-01-02-13-14.png"
   },
   {
@@ -145,8 +145,8 @@
     "vaga": "P-17",
     "posicao_solar": "tarde",
     "posicao_solar_label": "Sol da tarde",
-    "valor_total": 479000.0,
-    "financiamento": 335300.0,
+    "valor_total": 484000.0,
+    "financiamento": 338800.0,
     "planta": "assets/plants/apto-05-07-09-11.png"
   },
   {
@@ -160,8 +160,8 @@
     "vaga": "P-86",
     "posicao_solar": "tarde",
     "posicao_solar_label": "Sol da tarde",
-    "valor_total": 487500.0,
-    "financiamento": 341250.0,
+    "valor_total": 492500.0,
+    "financiamento": 344750.0,
     "planta": "assets/plants/apto-05-07-09-11.png"
   },
   {
@@ -175,8 +175,8 @@
     "vaga": "P-42",
     "posicao_solar": "tarde",
     "posicao_solar_label": "Sol da tarde",
-    "valor_total": 496000.0,
-    "financiamento": 347200.0,
+    "valor_total": 501000.0,
+    "financiamento": 350700.0,
     "planta": "assets/plants/apto-05-07-09-11.png"
   },
   {
@@ -190,8 +190,8 @@
     "vaga": "P-87",
     "posicao_solar": "tarde",
     "posicao_solar_label": "Sol da tarde",
-    "valor_total": 491000.0,
-    "financiamento": 343700.0,
+    "valor_total": 496000.0,
+    "financiamento": 347200.0,
     "planta": "assets/plants/apto-05-07-09-11.png"
   },
   {
@@ -205,24 +205,9 @@
     "vaga": "T-41",
     "posicao_solar": "manha",
     "posicao_solar_label": "Sol da manhã",
-    "valor_total": 621500.0,
-    "financiamento": 435050.0,
+    "valor_total": 626500.0,
+    "financiamento": 438550.0,
     "planta": "assets/plants/apto-01-02-13-14.png"
-  },
-  {
-    "id": "1403B",
-    "torre": "B",
-    "pavimento": 14,
-    "coluna": "03",
-    "area_privativa": 48.35,
-    "tipologia": "2 quartos com suite",
-    "tipologia_curta": "2Q + Suite",
-    "vaga": "T-57",
-    "posicao_solar": "tarde",
-    "posicao_solar_label": "Sol da tarde",
-    "valor_total": 566000.0,
-    "financiamento": 396200.0,
-    "planta": "assets/plants/apto-03.png"
   },
   {
     "id": "1404B",
@@ -235,8 +220,8 @@
     "vaga": "T-90",
     "posicao_solar": "manha",
     "posicao_solar_label": "Sol da manhã",
-    "valor_total": 526000.0,
-    "financiamento": 368200.0,
+    "valor_total": 531000.0,
+    "financiamento": 371700.0,
     "planta": "assets/plants/apto-04.png"
   },
   {
@@ -250,8 +235,8 @@
     "vaga": "P-68",
     "posicao_solar": "tarde",
     "posicao_solar_label": "Sol da tarde",
-    "valor_total": 486000.0,
-    "financiamento": 340200.0,
+    "valor_total": 491000.0,
+    "financiamento": 343700.0,
     "planta": "assets/plants/apto-05-07-09-11.png"
   },
   {
@@ -265,8 +250,8 @@
     "vaga": "P-30",
     "posicao_solar": "manha",
     "posicao_solar_label": "Sol da manhã",
-    "valor_total": 481000.0,
-    "financiamento": 336700.0,
+    "valor_total": 486000.0,
+    "financiamento": 340200.0,
     "planta": "assets/plants/apto-08-10.png"
   },
   {
@@ -280,8 +265,8 @@
     "vaga": "T-101",
     "posicao_solar": "manha",
     "posicao_solar_label": "Sol da manhã",
-    "valor_total": 536000.0,
-    "financiamento": 375200.0,
+    "valor_total": 541000.0,
+    "financiamento": 378700.0,
     "planta": "assets/plants/apto-12.png"
   },
   {
@@ -295,8 +280,8 @@
     "vaga": "T-42",
     "posicao_solar": "manha",
     "posicao_solar_label": "Sol da manhã",
-    "valor_total": 625000.0,
-    "financiamento": 437500.0,
+    "valor_total": 630000.0,
+    "financiamento": 441000.0,
     "planta": "assets/plants/apto-01-02-13-14.png"
   },
   {
@@ -310,8 +295,8 @@
     "vaga": "T-91",
     "posicao_solar": "manha",
     "posicao_solar_label": "Sol da manhã",
-    "valor_total": 529500.0,
-    "financiamento": 370650.0,
+    "valor_total": 534500.0,
+    "financiamento": 374150.0,
     "planta": "assets/plants/apto-04.png"
   },
   {
@@ -325,8 +310,8 @@
     "vaga": "T-97",
     "posicao_solar": "manha",
     "posicao_solar_label": "Sol da manhã",
-    "valor_total": 519500.0,
-    "financiamento": 363650.0,
+    "valor_total": 524500.0,
+    "financiamento": 367150.0,
     "planta": "assets/plants/apto-06.png"
   },
   {
@@ -340,8 +325,8 @@
     "vaga": "P-82",
     "posicao_solar": "tarde",
     "posicao_solar_label": "Sol da tarde",
-    "valor_total": 489500.0,
-    "financiamento": 342650.0,
+    "valor_total": 494500.0,
+    "financiamento": 346150.0,
     "planta": "assets/plants/apto-05-07-09-11.png"
   },
   {
@@ -355,8 +340,8 @@
     "vaga": "P-31",
     "posicao_solar": "manha",
     "posicao_solar_label": "Sol da manhã",
-    "valor_total": 484500.0,
-    "financiamento": 339150.0,
+    "valor_total": 489500.0,
+    "financiamento": 342650.0,
     "planta": "assets/plants/apto-08-10.png"
   },
   {
@@ -370,8 +355,8 @@
     "vaga": "P-77",
     "posicao_solar": "tarde",
     "posicao_solar_label": "Sol da tarde",
-    "valor_total": 499500.0,
-    "financiamento": 349650.0,
+    "valor_total": 504500.0,
+    "financiamento": 353150.0,
     "planta": "assets/plants/apto-05-07-09-11.png"
   },
   {
@@ -385,8 +370,8 @@
     "vaga": "T-92",
     "posicao_solar": "manha",
     "posicao_solar_label": "Sol da manhã",
-    "valor_total": 533000.0,
-    "financiamento": 373100.0,
+    "valor_total": 538000.0,
+    "financiamento": 376600.0,
     "planta": "assets/plants/apto-04.png"
   },
   {
@@ -400,8 +385,8 @@
     "vaga": "P-65",
     "posicao_solar": "tarde",
     "posicao_solar_label": "Sol da tarde",
-    "valor_total": 503000.0,
-    "financiamento": 352100.0,
+    "valor_total": 508000.0,
+    "financiamento": 355600.0,
     "planta": "assets/plants/apto-05-07-09-11.png"
   },
   {
@@ -415,8 +400,8 @@
     "vaga": "T-98",
     "posicao_solar": "manha",
     "posicao_solar_label": "Sol da manhã",
-    "valor_total": 523000.0,
-    "financiamento": 366100.0,
+    "valor_total": 528000.0,
+    "financiamento": 369600.0,
     "planta": "assets/plants/apto-06.png"
   },
   {
@@ -430,8 +415,8 @@
     "vaga": "P-69",
     "posicao_solar": "tarde",
     "posicao_solar_label": "Sol da tarde",
-    "valor_total": 493000.0,
-    "financiamento": 345100.0,
+    "valor_total": 498000.0,
+    "financiamento": 348600.0,
     "planta": "assets/plants/apto-05-07-09-11.png"
   },
   {
@@ -445,8 +430,8 @@
     "vaga": "P-32",
     "posicao_solar": "manha",
     "posicao_solar_label": "Sol da manhã",
-    "valor_total": 488000.0,
-    "financiamento": 341600.0,
+    "valor_total": 493000.0,
+    "financiamento": 345100.0,
     "planta": "assets/plants/apto-08-10.png"
   },
   {
@@ -460,8 +445,8 @@
     "vaga": "P-73",
     "posicao_solar": "tarde",
     "posicao_solar_label": "Sol da tarde",
-    "valor_total": 498000.0,
-    "financiamento": 348600.0,
+    "valor_total": 503000.0,
+    "financiamento": 352100.0,
     "planta": "assets/plants/apto-05-07-09-11.png"
   },
   {
@@ -475,8 +460,8 @@
     "vaga": "P-101",
     "posicao_solar": "manha",
     "posicao_solar_label": "Sol da manhã",
-    "valor_total": 493000.0,
-    "financiamento": 345100.0,
+    "valor_total": 498000.0,
+    "financiamento": 348600.0,
     "planta": "assets/plants/apto-08-10.png"
   },
   {
@@ -490,8 +475,8 @@
     "vaga": "P-78",
     "posicao_solar": "tarde",
     "posicao_solar_label": "Sol da tarde",
-    "valor_total": 503000.0,
-    "financiamento": 352100.0,
+    "valor_total": 508000.0,
+    "financiamento": 355600.0,
     "planta": "assets/plants/apto-05-07-09-11.png"
   },
   {
@@ -505,8 +490,8 @@
     "vaga": "P-61",
     "posicao_solar": "manha",
     "posicao_solar_label": "Sol da manhã",
-    "valor_total": 603000.0,
-    "financiamento": 422100.0,
+    "valor_total": 608000.0,
+    "financiamento": 425600.0,
     "planta": "assets/plants/apto-01-02-13-14.png"
   },
   {
@@ -520,8 +505,8 @@
     "vaga": "T-93",
     "posicao_solar": "manha",
     "posicao_solar_label": "Sol da manhã",
-    "valor_total": 536500.0,
-    "financiamento": 375550.0,
+    "valor_total": 541500.0,
+    "financiamento": 379050.0,
     "planta": "assets/plants/apto-04.png"
   },
   {
@@ -535,8 +520,8 @@
     "vaga": "P-66",
     "posicao_solar": "tarde",
     "posicao_solar_label": "Sol da tarde",
-    "valor_total": 506500.0,
-    "financiamento": 354550.0,
+    "valor_total": 511500.0,
+    "financiamento": 358050.0,
     "planta": "assets/plants/apto-05-07-09-11.png"
   },
   {
@@ -550,8 +535,8 @@
     "vaga": "P-70",
     "posicao_solar": "tarde",
     "posicao_solar_label": "Sol da tarde",
-    "valor_total": 496500.0,
-    "financiamento": 347550.0,
+    "valor_total": 501500.0,
+    "financiamento": 351050.0,
     "planta": "assets/plants/apto-05-07-09-11.png"
   },
   {
@@ -565,8 +550,8 @@
     "vaga": "P-33",
     "posicao_solar": "manha",
     "posicao_solar_label": "Sol da manhã",
-    "valor_total": 491500.0,
-    "financiamento": 344050.0,
+    "valor_total": 496500.0,
+    "financiamento": 347550.0,
     "planta": "assets/plants/apto-08-10.png"
   },
   {
@@ -580,8 +565,8 @@
     "vaga": "P-74",
     "posicao_solar": "tarde",
     "posicao_solar_label": "Sol da tarde",
-    "valor_total": 501500.0,
-    "financiamento": 351050.0,
+    "valor_total": 506500.0,
+    "financiamento": 354550.0,
     "planta": "assets/plants/apto-05-07-09-11.png"
   },
   {
@@ -595,8 +580,8 @@
     "vaga": "P-102",
     "posicao_solar": "manha",
     "posicao_solar_label": "Sol da manhã",
-    "valor_total": 496500.0,
-    "financiamento": 347550.0,
+    "valor_total": 501500.0,
+    "financiamento": 351050.0,
     "planta": "assets/plants/apto-08-10.png"
   },
   {
@@ -610,8 +595,8 @@
     "vaga": "P-79",
     "posicao_solar": "tarde",
     "posicao_solar_label": "Sol da tarde",
-    "valor_total": 506500.0,
-    "financiamento": 354550.0,
+    "valor_total": 511500.0,
+    "financiamento": 358050.0,
     "planta": "assets/plants/apto-05-07-09-11.png"
   },
   {
@@ -625,8 +610,8 @@
     "vaga": "T-115",
     "posicao_solar": "manha",
     "posicao_solar_label": "Sol da manhã",
-    "valor_total": 546500.0,
-    "financiamento": 382550.0,
+    "valor_total": 551500.0,
+    "financiamento": 386050.0,
     "planta": "assets/plants/apto-12.png"
   },
   {
@@ -640,8 +625,8 @@
     "vaga": "P-62",
     "posicao_solar": "manha",
     "posicao_solar_label": "Sol da manhã",
-    "valor_total": 606500.0,
-    "financiamento": 424550.0,
+    "valor_total": 611500.0,
+    "financiamento": 428050.0,
     "planta": "assets/plants/apto-01-02-13-14.png"
   },
   {
@@ -655,8 +640,8 @@
     "vaga": "T-94",
     "posicao_solar": "manha",
     "posicao_solar_label": "Sol da manhã",
-    "valor_total": 540000.0,
-    "financiamento": 378000.0,
+    "valor_total": 545000.0,
+    "financiamento": 381500.0,
     "planta": "assets/plants/apto-04.png"
   },
   {
@@ -670,8 +655,8 @@
     "vaga": "P-67",
     "posicao_solar": "tarde",
     "posicao_solar_label": "Sol da tarde",
-    "valor_total": 510000.0,
-    "financiamento": 357000.0,
+    "valor_total": 515000.0,
+    "financiamento": 360500.0,
     "planta": "assets/plants/apto-05-07-09-11.png"
   },
   {
@@ -685,8 +670,8 @@
     "vaga": "T-100",
     "posicao_solar": "manha",
     "posicao_solar_label": "Sol da manhã",
-    "valor_total": 530000.0,
-    "financiamento": 371000.0,
+    "valor_total": 535000.0,
+    "financiamento": 374500.0,
     "planta": "assets/plants/apto-06.png"
   },
   {
@@ -700,8 +685,8 @@
     "vaga": "P-71",
     "posicao_solar": "tarde",
     "posicao_solar_label": "Sol da tarde",
-    "valor_total": 500000.0,
-    "financiamento": 350000.0,
+    "valor_total": 505000.0,
+    "financiamento": 353500.0,
     "planta": "assets/plants/apto-05-07-09-11.png"
   },
   {
@@ -715,8 +700,8 @@
     "vaga": "P-34",
     "posicao_solar": "manha",
     "posicao_solar_label": "Sol da manhã",
-    "valor_total": 495000.0,
-    "financiamento": 346500.0,
+    "valor_total": 500000.0,
+    "financiamento": 350000.0,
     "planta": "assets/plants/apto-08-10.png"
   },
   {
@@ -730,8 +715,8 @@
     "vaga": "P-75",
     "posicao_solar": "tarde",
     "posicao_solar_label": "Sol da tarde",
-    "valor_total": 505000.0,
-    "financiamento": 353500.0,
+    "valor_total": 510000.0,
+    "financiamento": 357000.0,
     "planta": "assets/plants/apto-05-07-09-11.png"
   },
   {
@@ -745,8 +730,8 @@
     "vaga": "P-103",
     "posicao_solar": "manha",
     "posicao_solar_label": "Sol da manhã",
-    "valor_total": 500000.0,
-    "financiamento": 350000.0,
+    "valor_total": 505000.0,
+    "financiamento": 353500.0,
     "planta": "assets/plants/apto-08-10.png"
   },
   {
@@ -760,8 +745,8 @@
     "vaga": "T-116",
     "posicao_solar": "manha",
     "posicao_solar_label": "Sol da manhã",
-    "valor_total": 550000.0,
-    "financiamento": 385000.0,
+    "valor_total": 555000.0,
+    "financiamento": 388500.0,
     "planta": "assets/plants/apto-12.png"
   }
 ]
